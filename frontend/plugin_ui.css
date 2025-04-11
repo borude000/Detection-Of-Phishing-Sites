@@ -1,0 +1,110 @@
+/* General Styles */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f7f1f5;
+}
+
+
+/* Container Styles */
+
+#plugin_name {
+    width: 330px;
+    margin: 0 auto;
+    background-color: #061116;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Heading Styles */
+
+h1,
+h2 {
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #faf6f6;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+
+/* Circle Image Styles */
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    background: #36c629;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Score Styles */
+
+#site_score {
+    font-size: 50px;
+    font-weight: bold;
+    color: #231111;
+    text-align: center;
+}
+
+
+/* Message Styles */
+
+#site_msg {
+    text-align: center;
+    margin: 20px 0 5px;
+    font-size: 16px;
+}
+
+
+/* List Styles */
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #36c629;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Link Styles */
+
+a {
+    text-decoration: none;
+    color: #010b0f;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
